@@ -67,7 +67,7 @@ startGame = () => {
 getNewQuestion = () => {
     if (avaiilableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-        return window.location.assign('/end.html')
+        return window.location.assign('youniswebs.github.io/quize-app/end.html')
     }
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
